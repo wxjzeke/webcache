@@ -1,0 +1,29 @@
+{
+  "name": "@ezekiel.wang/webcache",
+  "version": "0.1.1",
+  "description": "web browser load file/request into caches",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "build:es6": "./node_modules/.bin/tsc -p ./",
+    "build": "npx webpack"
+  },
+  "keywords": [
+    "web",
+    "cache",
+    "preload",
+    "file",
+    "http",
+    "request"
+  ],
+  "author": "Ezekiel",
+  "license": "MIT",
+  "homepage": "https://github.com/wxjzeke/webcache",
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
